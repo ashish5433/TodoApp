@@ -54,9 +54,7 @@ body{
     
   }
   
-  /* .todo{
-    position: relative;
-  } */
+  
   #h3{
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     
@@ -80,30 +78,22 @@ body{
   }
   .srch{
     width: 100%;
-    /* position: absolute; */
     display: flex;
     align-items: center;
     justify-content: space-around;
     flex-wrap: wrap;
-  /* max-width: 80%; */
-  /* margin: 2rem; */
-    /* margin-bottom: 5%; */
   }
   
   
   
   
-  /* CSS */
   .button-33 {
-    /* position: absolute; */
-    /* float: right; */
-    /* left: 83%; */
+    
     width: 20%;
     height: 3.7rem;
     margin-top: 3.6px;
   
-    /* font-size: 300px; */
-    /* top: 10px; */
+    
     background-color: #c2fbd7;
     border-radius: 20px;
     box-shadow: rgba(44, 187, 99, .2) 0 -25px 18px -14px inset,rgba(44, 187, 99, .15) 0 1px 2px,rgba(44, 187, 99, .15) 0 2px 4px,rgba(44, 187, 99, .15) 0 4px 8px,rgba(44, 187, 99, .15) 0 8px 16px,rgba(44, 187, 99, .15) 0 16px 32px;
@@ -116,7 +106,6 @@ body{
     text-decoration: none;
     transition: all 250ms;
     border: 0;
-    /* font-size: 16px; */
     user-select: none;
     -webkit-user-select: none;
     touch-action: manipulation;
@@ -135,10 +124,8 @@ body{
    background-color: #61dafb10;
   }
   
-  /* <!-- HTML !--> */
   
   
-  /* CSS */
   .button-7 {
    
     background-color: #0095ff;
@@ -148,7 +135,6 @@ body{
     box-sizing: border-box;
     color: #fff;
     cursor: pointer;
-    /* display: inline-block; */
     font-family: -apple-system,system-ui,"Segoe UI","Liberation Sans",sans-serif;
     font-size: 13px;
     font-weight: 400;
@@ -156,7 +142,6 @@ body{
     margin: 0;
     outline: none;
     padding: 8px .8em;
-    /* position: relative; */
     text-align: center;
     text-decoration: none;
     user-select: none;
@@ -164,9 +149,7 @@ body{
     touch-action: manipulation;
     vertical-align: baseline;
     white-space: nowrap;
-    /* left: 40%; */
-    /* bottom: 1rem ; */
-    /* margin-left: 4px; */
+    
     margin: 0 10px 0 0;
   }
   
@@ -176,7 +159,6 @@ body{
   }
   .btn2:hover,
   .btn2:focus {
-    /* background-color: rgb(33, 151, 33); */
     background-color: rgb(96, 154, 10);
   }
   
@@ -190,13 +172,8 @@ body{
   }
   
   .h1_todo {
-    /* display: inline-block; */
-    /* position: relative; */
     color: #06547b;
-    /* left: -10vw; */
-    /* top: 7px; */
-    /* display: inline; */
-    /* right: 50vw; */
+   
   }
   
   .h1_todo::after {
@@ -205,7 +182,6 @@ body{
     width: 24%;
     transform: scaleX(0);
     height: 3px;
-    /* bottom: -; */
     top: 78px;
     left: 4%;
     background-color: #0087ca;
@@ -225,15 +201,11 @@ body{
     
   }
   #inpt1{
-    /* position: relative; */
     padding: 10px;
-    /* margin-bottom: 20px; */
     display: inline-block;
-    /* left: 24%; */
     width: 40%;
    border-radius: 1rem;
-    /* border-bottom: 2px solid red; */
-    background-color: #61dafb10; /* display: block; */
+    background-color: #61dafb10; 
   }
   
   
@@ -241,15 +213,12 @@ body{
     background-color: #06547b6e;
     position: absolute;
   
-    /* top:1.7rem; */
-    /* left: 94%; */
     width: 30px;
     height:30px;
     margin: 5px 5px 0 0;
     transition: 0.3s ease-in-out;
     border-radius: 50%;
     border: 0;
-    /* height: 28px; */
   }
   #fltrbtn:hover{
     background-color: #06547bf8;
@@ -277,9 +246,7 @@ body{
     padding: 16px;
     color: white;
     font-size: 2rem;
-    /* margin: 10px; */
     display: inline-block;
-    /* left: %; */
     width: 70%;
     border: none;
     background-color: #282c3404;
@@ -311,12 +278,10 @@ body{
   #fltrbtn{
     background-color: #06547b6e;
   
-    /* margin: 5px 5px 0 0; */
     margin-right: -65%;
     transition: 0.3s ease-in-out;
     border-radius: 50%;
     border: 0;
-    /* height: 28px; */
   }
   
 .button-33{
@@ -332,7 +297,6 @@ body{
   
   @media only screen and (max-width:537px) {
     #input{
-      /* width: 50%; */
       padding: 10px;
     }
     .button-7{

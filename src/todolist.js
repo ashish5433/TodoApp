@@ -7,7 +7,6 @@ export const Todo =()=>{
 const [inputTodo,setinputTodo]=useState("");
 const [todoArray,settodoArray] =useState([]);
 const [filterTD,setFilterTD]=useState("")
-const [isActive,setisActive]=useState("t1");
 const setInput =(event)=>{
     
     setinputTodo(event.target.value)
@@ -53,12 +52,12 @@ const btnfilter =()=>{
 }
 
 const markDone = (id)=>{
-    settodoArray(
-        todoArray.map((task)=>{
-            if(task.id===id)return {...task,completed:true}
+    
+        let updatedArry = todoArray.map((task)=>{                    // id name completed.....
+            if(task.id===id)return {...task,completed:true }
             return task;
         })
-    )
+        settodoArray(updatedArry)
 }
     return (
         < >
@@ -80,7 +79,7 @@ const markDone = (id)=>{
             </div>
             {todoArray.map((task)=>{
                 return (
-                    <div className= {isActive} style={{backgroundColor: task.completed ? "rgb(33, 200, 33)" :"pink"}}  >
+                    <div style={{backgroundColor: task.completed ? "rgb(33, 200, 33)" :"pink"}}  >
                     <h2 id="h3"> {task.id} {task.todoName}</h2>
                     <div className="edit--buttons">
                         
